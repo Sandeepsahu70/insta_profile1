@@ -12,8 +12,8 @@ class _HomescreenState extends State<Homescreen> {
     return Scaffold(
        appBar: AppBar(backgroundColor: Colors.white,
          elevation: 0,
-         title:  Padding(
-           padding: const EdgeInsets.all(8.0),
+         title:  const Padding(
+           padding: EdgeInsets.all(8.0),
            child: Row(
              children: [
                Icon(Icons.lock,size: 24.0,color: Colors.black,),
@@ -34,7 +34,7 @@ class _HomescreenState extends State<Homescreen> {
        SingleChildScrollView(
          child: Column(
           children: [
-            Row(
+            const Row(
               children: [
                 Column(
                   children:[
@@ -80,8 +80,8 @@ class _HomescreenState extends State<Homescreen> {
                 ),
               ],
             ),
-            SizedBox(height: 8.0,),
-            Row(
+            const SizedBox(height: 8.0,),
+            const Row(
               children: [
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -93,8 +93,8 @@ class _HomescreenState extends State<Homescreen> {
                 ),
               ],
             ),
-            SizedBox(height: 5.0,),
-            Padding(
+            const SizedBox(height: 5.0,),
+            const Padding(
               padding: EdgeInsets.all(16.0),
 
               child: Row(
@@ -108,8 +108,8 @@ class _HomescreenState extends State<Homescreen> {
                 ],
               ),
             ),
-            SizedBox(height: 10.0,),
-            Row(
+            const SizedBox(height: 10.0,),
+            const Row(
               children: [
                 Column(
                     children:[
@@ -152,8 +152,8 @@ class _HomescreenState extends State<Homescreen> {
                 ),
               ],
             ),
-            SizedBox(height: 10.0,),
-            Padding(
+            const SizedBox(height: 10.0,),
+            const Padding(
               padding: EdgeInsets.all(8.0),
               child: Row(
                 children: [
@@ -168,30 +168,30 @@ class _HomescreenState extends State<Homescreen> {
                 ],
               ),
             ),
-            SizedBox(height: 6.0,),
+            const SizedBox(height: 6.0,),
 
             Row(
               children: [
                 Image.asset('assets/IMG_6957-01.jpeg',height: 140.0,width: 140.0,),
-                Spacer(),
+                const Spacer(),
                 Image.asset('assets/IMG20221105220606-01.jpeg',height: 140.0,width: 130.0,),
-                Spacer(),
+                const Spacer(),
                 Image.asset('assets/WhatsApp Image 2023-10-05 at 19.10.26.jpg',height: 120.0,width: 120.0,)
               ],
             ),
-            SizedBox(height: 10.0,),
+            const SizedBox(height: 10.0,),
             Row(
               children: [
                 Image.asset('assets/WhatsApp Image 2023-10-05 at 19.04.54.jpg',height: 140.0,width: 140.0,),
-                Spacer(),
+                const Spacer(),
                 Image.asset('assets/WhatsApp Image 2023-10-05 at 19.12.58.jpg',height: 140.0,width: 130.0,),
-                Spacer(),
+                const Spacer(),
               Image.asset('assets/WhatsApp Image 2023-10-06 at 07.38.05.jpg',height: 140.0,width: 120.0,)
               ],
             ),
-            SizedBox(height: 10.0,),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
+            const SizedBox(height: 10.0,),
+            const Padding(
+              padding: EdgeInsets.all(8.0),
               child: Row(
                 children: [
                   ButtonBar(
